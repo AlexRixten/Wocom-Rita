@@ -1,0 +1,76 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+@import 'base/variables';
+// @import 'base/mixins';
+
+body, html{
+		overflow-x: hidden;
+		height: 100%;
+}
+* {
+		font-family: 'Formular';
+		margin: 0;
+		padding: 0;
+}
+a{
+		text-decoration: none;
+		&:hover{
+			text-decoration: none;
+		}
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+.content {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
+.container{
+		max-width: 1110px;
+		margin: 0 auto;
+}
+@media(max-width: 1200px){
+		.container{
+				margin: 0 15px;
+		}
+}
+@import 'blocks/titles';
+@import 'blocks/buttons';
+@import 'blocks/menu';
+@import 'blocks/header';
+@import 'blocks/header-w';
+@import 'blocks/footer';
+@import 'blocks/form';
+@import 'blocks/modal';
+
+
+@import 'blocks/main-page/promo';
+@import 'blocks/main-page/projects';
+@import 'blocks/main-page/work';
+@import 'blocks/main-page/withus';
+
+@import 'blocks/services-page/services';
+
+@import 'blocks/projects-page/projectsPage';
+
+@import 'blocks/vacancy-page/vacancy';
+
+@import 'blocks/appointment-page/appointment';
+
+@import 'blocks/checklist-page/checklist';
+
+@import 'blocks/contacts-page/contacts';
+
+@import 'blocks/consultation-page/consultation';
+
+@import 'blocks/error-page/error';
+
+
+
+@import 'blocks/media';
+
+

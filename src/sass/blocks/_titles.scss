@@ -1,0 +1,146 @@
+.title{
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 112%;
+    color: #FFFFFF;
+    &_fz160{
+        font-size: 160px;
+        color: #F2EBF2;
+    }
+    &_fz60c{
+        color: #401C4C;
+    }
+    &_fz60r{
+        color: $red-color;
+    }
+    &_fz37{
+        font-size: 37px;
+        line-height: 101%;
+        color: $red-color;
+    }
+    &_fz32{
+        font-size: 32px;
+        line-height: 120%;
+        color: $main-color;
+    }
+    &_fz14{
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 17px;
+        color: $main-color;
+    }
+    &_fz14w{
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+    }
+    &_fz14m{
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 17px;
+        color: $main-color;
+    }
+    &_fz14r{
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 17px;
+        color: $red-color;
+    }
+    &_fz12{
+        font-size: 12px;
+        color: #844499;
+    }
+}
+.arrow{
+    padding: 10px 13px;
+    margin-left: 30px;
+    color:#000000;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    &-b{
+        padding: 10px 15px;
+        margin: 0;
+        margin-right: 14px;
+        font-size: 24px;
+    }
+    &-w{
+        margin: 0;
+        padding: 0;
+        margin-left: 8px;
+        border: none;
+        background: none;
+        color: $red-color;
+    }
+    &-blk{
+        padding: 10px 13px;
+        margin-left: 30px;
+        color:#FFFFFF;
+        background-color: $main-color;
+        border-radius: 50%;  
+    }
+}
+
+
+
+
+
+
+
+.subtitle{
+    font-size: 26px;
+    line-height: 145%;
+    color: $main-color;
+    span{
+        font-weight: 900;
+    }
+    &_fz60{
+        font-size: 60px;
+        line-height: 112%;
+    }
+    &_fz18{
+        font-size: 18px;
+        line-height: 155%;
+    }
+    &_fz18c{
+        font-size: 18px;
+        line-height: 155%;
+        color: #979298;
+    }
+    &_fz26w{
+        color: #FFFFFF;
+    }
+    &_fz26r{
+        color: $red-color;
+    }
+    &_fz22{
+        font-size: 22px;
+        line-height: 101%;
+        color: #FFFFFF;
+    }
+    &_fz33{
+        font-size: 33px;
+        line-height: 101%;
+        color: $main-color;
+    }
+    &_fz32{
+        font-size: 32px;
+        line-height: 120%;
+        color: $main-color;
+    }
+    &_fz37{
+        font-size: 37px;
+        line-height: 101%;
+        color: $red-color;
+    }
+    &_fz12{
+        font-size: 12px;
+        line-height: 112%;
+        color: #844499;
+    }
+    &_fz12f{
+        font-size: 12px;
+        line-height: 134%;
+        color: #C1BBC4;
+    }
+}

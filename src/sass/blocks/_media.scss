@@ -1,0 +1,271 @@
+@media (max-width: 1600px) {
+    .work{
+        &__number{
+            display: none;
+            &-end{
+                display: none;
+            }
+        }
+    }
+}
+@media(max-width: 1200px){
+    
+    .footer{
+        background: $main-color;
+    }
+}
+@media (max-width: 992px) {
+    .hamburger{
+        display: flex;
+    }
+    .header{
+        &__wrapper{
+            display: none;
+        }
+    }
+    .header-w{
+        &__wrapper{
+            display: none;
+        }
+        &__logo{
+            display: block;
+        }
+    }
+    .promo{
+        height: 580px;
+        &__logo{
+            display: block;
+        }
+    }
+    .appointment{
+        &__block{
+            display: none;
+        }
+        &__wrapper{
+            margin-left: 100px;
+        }
+
+    }
+    .promo__symbol svg {
+        width: 720px;
+        height: 666px;
+    }
+}
+
+@media (max-width: 768px) {
+    .promo{
+        height: 525px;
+        &__symbol svg {
+            width: 600px;
+            height: 620px;
+        }
+        &__wrapper{
+            margin-top: 70px;
+        }
+    }
+    
+     .vacancy{
+        &__title{
+            font-size: 40px;
+        }
+    }
+    .work{
+        &__wrapper{
+            grid-template-columns: auto;
+            grid-template-rows: auto;
+            gap: 30px;
+            .begin{
+                grid-row: 1 / 2;
+            }
+            .end{
+                grid-row: 5 / 6;
+            }
+        }
+        &__content{
+            text-align: center;
+            gap: 15px;
+        }
+    }
+
+}
+@media(max-width: 634px){
+    .promo{
+        height: 550px;
+        &__symbol{
+            display: none;
+        }
+    }
+    .form__consultation-item{
+        width: 100%;
+    }
+    .form__item input{
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 576px) {
+    .title{
+        font-size: 40px;
+        &_fz14w{
+            font-size: 14px;
+        }
+        &_fz32{
+            font-size: 32px;
+        }
+    }
+    .subtitle{
+        &_fz60{
+            font-size: 36px;
+        }
+        &_fz37{
+            font-size: 33px;
+        }
+        &_fz18{
+            font-size: 15px;
+        }
+    }
+    .menu__link{
+        font-size: 21px;
+    }
+    .projects{
+        padding: 0;
+        padding-top: 60px;
+        &__wrapper{
+            grid-template-columns: minmax(290px, auto);
+        }
+        &__item{
+            font-size: 15px;
+            margin-bottom: 60px;
+        }
+    }
+    .projectsPage{
+        padding: 50px 0 50px 0;
+        &__tab{
+            grid-template-columns: repeat(auto-fit, minmax(290px, auto));
+        }
+    }
+    .menu {
+        &__block {
+            width: 250px;
+            padding-left: 20px;
+        }
+    }
+    .work{
+        padding-top: 60px;
+        &__wrapper{
+            margin-top: 60px;
+        }
+    }
+    .withus{
+        padding: 60px 0 20px 0;
+        &__wrapper{
+            grid-template-columns: repeat(auto-fit,minmax(290px,auto));
+        }
+    }
+    .vacancy{
+        padding: 20px 0 50px 0;
+        &__tab{
+            grid-template-columns: repeat(auto-fit,minmax(270px,auto));
+        }
+    }
+    .footer{
+        padding-bottom: 100px;
+        &__sociallink{
+            font-size: 14px;
+        }
+        &__number{
+            font-size: 31px;
+        }
+    }
+    .services{
+        padding: 20px 0 50px 0;
+        &__wrapper{
+            grid-template-columns: repeat(auto-fit, minmax(290px, auto));
+        }
+    }
+    .appointment{
+        &__wrapper{
+            margin: 0;
+        }
+        &-title{
+            margin-bottom: 40px;
+        }
+        &__item{
+            margin-bottom: 30px;
+        }
+    }
+    .checklist{
+        padding: 20px 0 50px 0;
+        &__wrapper{
+            margin: 0;
+        }
+    }
+    .consultation{
+        padding: 20px 0 50px 0;
+    }
+    .form{
+        &__consultation-wrapper{
+            gap: 0;
+        }
+    }
+
+}
+
+@media (max-width: 450px) {
+    .btn{
+        padding: 20px;
+        font-size: 12px;
+
+    }
+    .modal{
+        &-txt{
+            margin-bottom: 20px;
+        }
+    }
+    .subtitle{
+        &_fz60{
+            font-size: 24px;
+        }
+    }
+    .work{
+        &-title{
+            font-size: 32px;
+        }
+    }
+
+}
+@media (max-width: 400px) {
+    .title{
+        font-size: 30px;
+        &_fz32{
+            font-size: 23px;
+        }
+        &_fz14w{
+            font-size: 14px;
+        }
+    }
+    .subtitle{
+        &_fz18{
+            font-size: 15px;
+        }
+        &_fz32{
+            font-size: 23px;
+        }
+    }
+    .checklist{
+        &-content{
+            margin-bottom: 25px;
+        }
+    }
+    .form{
+        &__item{
+            margin-bottom: 45px;
+        }
+    }
+    .footer{
+        &__sociallink{
+            font-size: 14px;
+        }
+    }
+}

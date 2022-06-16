@@ -1,0 +1,53 @@
+.vacancy{
+    padding: 50px 0 60px 0;
+    &__list{
+        margin-top: 33px;
+        max-width: 347px;
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+    }
+    &__element{
+        cursor: pointer;
+    }
+    &__wrapper{
+        margin-top: 50px
+    }
+    &__tab{
+        display: none;
+		grid-template-columns: repeat(auto-fit,minmax(460px,auto));
+        grid-template-rows: minmax(90px,auto);
+        gap: 10px;
+    }
+    .active{
+        display: grid;
+        color: $main-color;
+    }
+    &__block{
+        padding: 30px 10px 30px 30px;
+        background-color: $main-color;
+        &-r{
+            background-color: $red-color;
+        }
+    }
+    &__content{
+        margin-top: 30px;
+    }
+    &__info{
+        max-width: 285px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 10px;
+    }
+    &__link{
+        &:hover{
+            text-decoration: none;
+        }
+    }
+    &__resume{
+        max-width: 800px;
+        margin-top: 55px;
+    }
+}
